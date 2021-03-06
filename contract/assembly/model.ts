@@ -11,8 +11,9 @@ export class Wager {
     public symbol: SymbolId,
     public value: u128,
     public at: u64,
+    public allowCancelAt: u64,
     public bet: u128,
     public over: AccountId,
     public under: AccountId,
-  ) { }
+  ) {}
 }
